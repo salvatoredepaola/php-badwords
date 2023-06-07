@@ -12,6 +12,7 @@
 $testo = $_GET["testoScritto"];
 ?>
 
+<p> linghezza: <?php echo strlen($testo) ?> </p>
 <p>testo scritto: <?php echo $testo; ?> </p>
 
 
