@@ -10,10 +10,13 @@
     
 <?php
 $testo = $_GET["testoScritto"];
+$testo2 = str_replace($testo, "***", $testo)
 ?>
 
-<p> linghezza: <?php echo strlen($testo) ?> </p>
-<p>testo scritto: <?php echo $testo; ?> </p>
+<p>Lunghezza: <?php echo strlen($testo) ?> </p>
+<p>Testo scritto: <?php echo $testo; ?> </p>
+<p>Testo scritto censurato: <?php echo $testo2; ?> </p>
+
 
 
 
